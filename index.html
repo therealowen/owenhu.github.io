@@ -64,7 +64,47 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+
 <!--        start the research block-->
+<!--project: BDML WOW-->
+<tr onmouseout="Traffic_stop()" onmouseover="Traffic_start()">
+    <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+            <div class="two" id='bdml_image'>
+                <img src='images/BDML.png' width="160"></div>
+            <!--                                            <img src='images/wine.png' width="160">-->
+        </div>
+        <script type="text/javascript">
+            function Traffic_start() {
+                document.getElementById('Traffic_image').style.opacity = "1";
+            }
+
+            function Traffic_stop() {
+                document.getElementById('Traffic_image').style.opacity = "0";
+            }
+            Traffic_stop()
+        </script>
+    </td>
+    <td style="padding:20px;width:75%;vertical-align:middle">
+        <papertitle><a href="data/WOW%20Group16.pdf">
+            Boston House Prices Regression using Random Forest Regressor and XGBRegressor (Python Keras, sklearn)
+        </a>
+        </papertitle>
+        <br>
+        <em>
+            Supervised by <a href="https://carey.jhu.edu/faculty/graeme-warren-phd">Prof. Graeme Warren</a>, 2022
+        </em><br>
+        <a href="https://drive.google.com/file/d/1XoJM6nQdp2DxCg32Jfx68iz1hvfFdqhv/view?usp=sharing">colab</a>
+        <p>
+            Led a team of two to conduct descriptive and predictive analytics on potential factors that could contribute
+            to the value of owner-occupied homes at Boston using two regressors (the <strong>Random Forest Regressor</strong> and <strong>XGB Regressor</strong>).
+            <br><br>
+        </p>
+    </td>
+</tr>
+
+<!--Master Thesis-->
         <tr onmouseout="Traffic_stop()" onmouseover="Traffic_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -109,44 +149,6 @@
             </td>
         </tr>
 
-<!--        project 2: SAS-->
-<tr onmouseout="Traffic_stop()" onmouseover="Traffic_start()">
-    <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-            <div class="two" id='factor_image'>
-                <img src='images/FactorProjConclusion.png' width="160"></div>
-            <!--                                            <img src='images/wine.png' width="160">-->
-        </div>
-        <script type="text/javascript">
-            function Traffic_start() {
-                document.getElementById('Traffic_image').style.opacity = "1";
-            }
-
-            function Traffic_stop() {
-                document.getElementById('Traffic_image').style.opacity = "0";
-            }
-            Traffic_stop()
-        </script>
-    </td>
-    <td style="padding:20px;width:75%;vertical-align:middle">
-        <papertitle><a href="data/Factors%20Affecting%20the%20Number%20of%20Prescription%20Drugs%20by%20Longitudinal%20Regression%20Analysis.pdf">
-            Factors Affecting the Number of Prescription Drugs by Longitudinal Regression Analysis (SAS)
-        </a>
-        </papertitle>
-        <br>
-        <em>
-            Supervised by <a href="https://www.niu.edu/clas/statistics-actuarial/about/directory/xia.shtml">Prof. Chaoxiong (Michelle) Xia</a>
-        </em>
-        <p>
-            Led a team of 4 students to construct models to investigate the relationship between Prescription Medicines and 15
-            independent variables based on 4000+ data records from The LSOA II Wave 2 Survivor data (CDC).
-            <br><br>
-            Utilized SAS to build multiple regression models (Binomial, Normal, Negative Normal, Poisson, Forward Logit, Backward
-            Logit) to get the best fit model and visualize the analyses in a 20-page paper.
-        </p>
-    </td>
-</tr>
-
 <!--        project3: Wine block start here-->
 <tr onmouseout="Traffic_stop()" onmouseover="Traffic_start()">
     <td style="padding:20px;width:25%;vertical-align:middle">
@@ -173,7 +175,7 @@
         </papertitle>
         <br>
         <em>
-            Supervised by <a href="https://www.niu.edu/clas/statistics-actuarial/about/directory/hua.shtml">Prof. Lei (Larry) Hua</a>
+            Supervised by <a href="https://www.niu.edu/clas/statistics-actuarial/about/directory/hua.shtml">Prof. Lei (Larry) Hua</a>, 2019
         </em>
         <p>
             Implemented EDA in Python to explore the influence of 11 predictors on wine quality by analyzing heavy datasets collected
@@ -185,7 +187,43 @@
     </td>
 </tr>
 
+<!--        project 2: SAS-->
+<tr onmouseout="Traffic_stop()" onmouseover="Traffic_start()">
+    <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+            <div class="two" id='factor_image'>
+                <img src='images/FactorProjConclusion.png' width="160"></div>
+            <!--                                            <img src='images/wine.png' width="160">-->
+        </div>
+        <script type="text/javascript">
+            function Traffic_start() {
+                document.getElementById('Traffic_image').style.opacity = "1";
+            }
 
+            function Traffic_stop() {
+                document.getElementById('Traffic_image').style.opacity = "0";
+            }
+            Traffic_stop()
+        </script>
+    </td>
+    <td style="padding:20px;width:75%;vertical-align:middle">
+        <papertitle><a href="data/Factors%20Affecting%20the%20Number%20of%20Prescription%20Drugs%20by%20Longitudinal%20Regression%20Analysis.pdf">
+            Factors Affecting the Number of Prescription Drugs by Longitudinal Regression Analysis (SAS)
+        </a>
+        </papertitle>
+        <br>
+        <em>
+            Supervised by <a href="https://www.niu.edu/clas/statistics-actuarial/about/directory/xia.shtml">Prof. Chaoxiong (Michelle) Xia</a>, 2018
+        </em>
+        <p>
+            Led a team of 4 students to construct models to investigate the relationship between Prescription Medicines and 15
+            independent variables based on 4000+ data records from The LSOA II Wave 2 Survivor data (CDC).
+            <br><br>
+            Utilized SAS to build multiple regression models (Binomial, Normal, Negative Normal, Poisson, Forward Logit, Backward
+            Logit) to get the best fit model and visualize the analyses in a 20-page paper.
+        </p>
+    </td>
+</tr>
 
 
 <!--project 4: Milk-->
@@ -214,7 +252,7 @@
         </papertitle>
         <br>
         <em>
-            Supervised by <a href="https://stat.illinois.edu/directory/profile/lbravo">Prof. Lelys Bravo de Guenni</a>
+            Supervised by <a href="https://stat.illinois.edu/directory/profile/lbravo">Prof. Lelys Bravo de Guenni</a>, 2018
         </em>
         <p>
             Consolidated and cleaned the datasets of monthly milk production (pounds per cow) from January 1962 to December 1975.
@@ -312,7 +350,7 @@
                 </papertitle>
                 <br>
                 <em>
-                    Supervised by <a href="https://shanghai.nyu.edu/academics/faculty/directory/shizhuo-zhu-0/">Dr. Shizhuo Zhu</a>
+                    Supervised by <a href="https://shanghai.nyu.edu/academics/faculty/directory/shizhuo-zhu-0/">Dr. Shizhuo Zhu</a>, 2020 - 2021
                 </em>
                 <p>Collaborated with cross-functional teams to build a distinctive CN-ESG evaluation framework including 24 themes, 154 secondary indicators,
                     and 43 industry indicators using a variety of Machine Learning techniques and integrated ESG score into
@@ -349,7 +387,7 @@
                 </papertitle>
                 <br>
                 <em>
-                    Supervised by <a href="https://carey.jhu.edu/faculty/faculty-directory/mohammad-ali-alamdar-yazdi-phd">Prof. Mohammad Ali Alamdar Yazdi</a>
+                    Supervised by <a href="https://carey.jhu.edu/faculty/faculty-directory/mohammad-ali-alamdar-yazdi-phd">Prof. Mohammad Ali Alamdar Yazdi</a>, 2022
                 </em>
                 <p>
                     <a href="https://zhu98.shinyapps.io/DataVisualization/">webpage</a> |
@@ -385,12 +423,12 @@
         </papertitle>
         <br>
         <em>
-            Supervised by <a href="https://ep.jhu.edu/faculty/joseph-demasco/">Mr. Joseph Demasco</a>
+            Supervised by <a href="https://ep.jhu.edu/faculty/joseph-demasco/">Mr. Joseph Demasco</a>, 2021
         </em>
         <p>
             <a href="https://github.com/therealowen/Developing_Internet_Systems_and_Services_Projects/tree/master/Static%20Website">code</a>
             <br>
-            Designed, developed and deployed the website of Xiaomi smart home appliances with WordPress, HTML, CSS, JavaScript, PHP and SQL.
+            Designed, developed and deployed the website of Xiaomi smart home appliances with WordPress, <strong>HTML, CSS, JavaScript, PHP </strong> and <strong>SQL</strong>.
         </p>
     </td>
 </tr>
@@ -472,7 +510,7 @@
                 <p style="text-align:center;font-size:small;">
                     Inspired by <a href="https://jonbarron.info">Jon Barron, Ph.D.</a>
                     <br>
-                    &copy Yiqun Hu | Last Update: Nov 06, 2022
+                    &copy Yiqun Hu | Last Update: Nov 07, 2022
                     <br>
                 </p>
             </td>
