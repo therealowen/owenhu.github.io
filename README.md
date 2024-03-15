@@ -1,6 +1,5 @@
 # therealowen.github.io
 Personal Website
 
-&copy Yiqun Hu | Last Update Nov 1, 2022
+©Yiqun Hu | Last Update March, 2024
 
-Inspired by [https://jonbarron.info](Jon Barron, Ph.D.)
